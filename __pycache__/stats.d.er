@@ -1,0 +1,5 @@
+##[pylyzer] succeed /home/ayden/workspace/github.com/AydenRobert/bookbot/stats.py 1748662726 596
+.get_num_words: (contents: Str) -> Nat
+.get_char_dict: |Type_213 :> Str, T :> U and T, T: Type, Type_167 <: Structural({.lower = (self: Obj) -> ?213}), U: Type|(contents: Type_167) -> global::Dict!({T: {0}})
+.get_sorted_dict: |K: Type, V <: global::Ord|(inp_dict: global::Iterable(K) and global::Indexable(K, V)) -> global::List!(global::Dict!({{"num"}: V, {"char"}: K}), _: Nat)
+
